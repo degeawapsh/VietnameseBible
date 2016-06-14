@@ -10,7 +10,7 @@ header('Content-Type: text/html; charset=UTF-8');
 </head>
 <body>
 <?php
-$sql = new mysqli("asus", "root", "root", "mydb");
+$sql = new mysqli("asus.ml", "root", "root", "mydb");
 if(mysqli_connect_error()){
 	die(mysqli_connect_error());
 }
