@@ -5,7 +5,7 @@ if(mysqli_connect_error()){
 	die(mysqli_connect_error());
 }
 $sql->set_charset("utf8");
-$id = 178+round((time()-1440226702)/86400-0.5);
+$id = 178+round((time()-1440194290)/86400-0.5);
 
 $res = $sql->query("SELECT `data` FROM `bible` WHERE `id`=".$id);
 $data = $res->fetch_row();
