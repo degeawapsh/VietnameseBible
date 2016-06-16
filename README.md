@@ -3,4 +3,5 @@
 - "id": kiểu số nguyên
 - "title": kiểu text
 - "data": kiểu longtext
+
 Dùng file data/gensql.pl để tạo CSDL
